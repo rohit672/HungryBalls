@@ -234,8 +234,6 @@ function getRandomSafeSpot() {
       delete playerElements[removedKey];
     })
 
-
-    //New - not in the video!
     //This block will remove coins from local state when Firebase `coins` value updates
     allCoinsRef.on("value", (snapshot) => {
       coins = snapshot.val() || {};
