@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Hungry Balls</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css" type="text/css">
+  </head>
+  <body>
+
+    <div class="game-container">
+    </div>
+    <div class="player-info">
+      <div>
+        <label for="player-name">Your Name</label>
+        <input id="player-name" maxlength="10" type="text" />
+      </div>
+      <div>
+        <button id="player-color">Change Color</button>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script>
+      
+      // Enter Your Firebase Details 
+      const firebaseConfig = {
+  apiKey: "AIzaSyDvE8INTuhabohDHhduCVVFp3a9goYYymM",
+  authDomain: "hungryballs-216cb.firebaseapp.com",
+  databaseURL: "https://hungryballs-216cb-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "hungryballs-216cb",
+  storageBucket: "hungryballs-216cb.appspot.com",
+  messagingSenderId: "874122088945",
+  appId: "1:874122088945:web:4433eb69ec33089dd6f450"
+};  
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+    <script src="/KeyPressListener.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
