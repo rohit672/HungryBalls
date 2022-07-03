@@ -22,5 +22,5 @@ Real time Multiplayer Game . Multiple users compete each other, the one with the
 
 #### *Backend*
 
-- Socket.io
+- Firebase
 - Netlify
