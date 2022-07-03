@@ -1,6 +1,6 @@
 ## Hungry Balls
 
-Real time Multiplayer Game . Multiple users compete each other, the one with the maximum score WINS !!.
+Real time Multiplayer Game . Multiple users compete against each other, the one with the maximum score WINS !!.
 
 ## Preview
 
